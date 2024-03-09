@@ -13,7 +13,7 @@ import { Japanesecard, Typewritingcard, Agilecard } from "./skillbg";
 import { GitCard, GithubCard, DockerCard, HostingerCard, VSCodeCard, PhotoshopCard } from "./skillbg";
 import { Datamining, Pythonsvg, Java, C, Excel, Tableu, Sql, Wordpress, } from "./Icons";
 import Logo from "./Logo";
-import { Html } from "next/document";
+
 
 const Skills = () => {
   return (
