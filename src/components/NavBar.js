@@ -8,7 +8,7 @@ import {
   LinkedInIcon,
   KaggleIcon,
   MediumIcon,
-  DataCamp,
+  GoogleProfile,
   GeeksForGeeks,
   SunIcon,
   MoonIcon,
@@ -144,13 +144,13 @@ const NavBar = () => {
             <GeeksForGeeks />
           </motion.a>
           <motion.a
-            href="/"
+            href="https://developers.google.com/profile/u/nithishkumar100"
             target={"_blank"}
             whileHover={{ y: -2 }}
             className="w-6 mx-3"
             whileTap={{ scale: 0.9 }}
           >
-            <DataCamp />
+            <GoogleProfile />
           </motion.a>
 
           <button
@@ -262,7 +262,7 @@ const NavBar = () => {
               className="w-6 mx-3 sm:mx-1"
               whileTap={{ scale: 0.9 }}
             >
-              <DataCamp />
+              <GoogleProfile />
             </motion.a>
 
             <button

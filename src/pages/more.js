@@ -65,8 +65,8 @@ const MovingImg = ({ title, img, link }) => {
                 (max-width:1200px) 50vw,
                 50vw"
                 ref={imgRef}
-                src={img}
-                alt={title}
+                // src={img}
+                // alt={title}
                 className="z-10 w-96 h-auto hidden absolute rounded-lg md:!hidden"
             />
         </Link>
@@ -286,19 +286,19 @@ export default function More() {
                     </h2>
                     <ul className="mb-16">
                         <Article
-                            title="GYM TRAINER Using Artificial Intelligence | IJSART| 2024"
+                            title="GYM TRAINER Using Artificial Intelligence | IJSART"
                             date="2024"
                             link="https://medium.com/@g.nithish100/the-ipads-many-talents-25-ways-to-get-the-most-out-of-your-device-912a49cacb57"
                             img={ipad}
                         />
                         <Article
-                            title="Add+"
+                            title="Design Virtual Kit Using Unity | IJSART "
                             date="2024"
                             link="https://medium.com/@g.nithish100/the-ipads-many-talents-25-ways-to-get-the-most-out-of-your-device-912a49cacb57"
                             img={ipad}
                         />
                         <Article
-                            title="Add+"
+                            title="Design Pattern  | Amubulance Navigator | SNYG"
                             date="2022"
                             link="https://medium.com/@g.nithish100/the-ipads-many-talents-25-ways-to-get-the-most-out-of-your-device-912a49cacb57"
                             img={ipad}

@@ -910,7 +910,7 @@ export const CommunicationsCard = () => {
                 }}
             >
                 {/* <Softskills className="w-7 dark:fill-white group-hover:fill-white dark:group-hover:fill-black" /> */}
-                <h1 className="text-black mt-2 ml-5 text-[1rem] mb-6 mx-0 font-semibold dark:text-white ">Communications</h1>
+                <h1 className="text-black mt-2 ml-5 text-[1rem] mb-6 mx-0 font-semibold dark:text-white ">Communication</h1>
             </motion.div>
         </div>
     );

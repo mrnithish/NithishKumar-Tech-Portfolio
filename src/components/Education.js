@@ -39,17 +39,16 @@ const Education = () => {
   return (
     <div className="my-62">
       <h2 className="font-bold text-8xl mt-60 mb-60 w-full text-center  md:text-6xl xs:text-4xl md:mb-16">
-        Education
+      Education
       </h2>
       <div ref={ref} className="w-[75%] mx-auto relative ld:w-[90%] md:w-full">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-
           className="absolute left-9 top-0 w-[4px] bottom-60 h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 mb-16 xs:ml-2 xl:ml-2 2xl:mb-4">
-          <Details
+        <Details
             type="Minor Degree in Artifical Intelligence and Data Science"
             time="2024-2025"
             place="SNS COLLEGE OF ENGINEERING"
@@ -83,7 +82,7 @@ const Education = () => {
         </div>
       </div>
     </div>
-
+    
   );
 };
 export default Education;
