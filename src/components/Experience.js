@@ -214,7 +214,7 @@ const Experience = () => {
             work="Developed a comprehensive e-commerce website for the sale and purchase of millets and whole grains. Created a sophisticated model that seamlessly integrated database operations and login authentication, ensuring secure access and efficient data management.Implemented server-side and business logic components under the supervision of senior developers. Participated in code reviews to learn from senior developers and improve coding skills."
           />
         </ul>
-        <div className="absolute -right-1/3 bottom-8 inline-block w-100 top-1/6 md:hidden">
+        <div className="absolute -right-1/3 bottom-8 inline-block w-100 top-1/6 sm:hidden">
           <Image
             src={experiencepic}
             alt="Nithish Kumar"
