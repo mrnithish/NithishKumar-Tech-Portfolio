@@ -16,13 +16,13 @@ import ipad from "../../public/images/articles/ipad.jpeg";
 import snyg from "../../public/images/articles/snyg.png";
 import dsa from "../../public/images/articles/DSA.png";
 import school from "../../public/images/articles/School.png";
-import { English, Gamil, Japanese, Languagesvg, LinkArrow, Tamil, Telegram } from "@/components/Icons";
+import { English, Gamil, GoogleProfileD, Japanese, Languagesvg, LinkArrow, Tamil, Telegram } from "@/components/Icons";
 import {
     GithubIcon,
     LinkedInIcon,
     KaggleIcon,
     MediumIcon,
-    DataCamp,
+    GoogleProfile,
     GeeksForGeeks,
     SunIcon,
     MoonIcon,
@@ -344,13 +344,13 @@ export default function More() {
                                 </div>
                                 <div className=" flex flex-row just w-fit">
                                     <Telegram className="w-10 h-10 "></Telegram>
-                                    <Link href="mailto:g.nithish100@gmail.com" target={"_blank"}>
-                                        <h1 className="ml-4 font-bold md:text-center underline cursor-pointer p-1">g.nithish100@gmail.com</h1>
-                                    </Link>
+                                    
+                                        <h1 className="ml-4 font-bold md:text-center cursor-pointer p-1">@G_Nithish_Kumar</h1>
+                                    
                                 </div>
                             </motion.div>
                             <div className="mt-10">
-                                <h1 className="text-center font-medium dark:text-white">Follow Me</h1>
+                                <h1 className="text-center antialiased italic dark:text-white font-bold text-4xl w-full mb-16 mt-16">Follow Me</h1>
                             </div>
                             <div>
                                 <nav className="flex items-center justify-center flex-wrap p-6">
@@ -407,7 +407,7 @@ export default function More() {
                                         className="w-6 mx-3"
                                         whileTap={{ scale: 0.9 }}
                                     >
-                                        <DataCamp />
+                                        <GoogleProfile />
                                     </motion.a>
                                 </nav>
 
