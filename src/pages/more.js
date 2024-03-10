@@ -30,7 +30,7 @@ import {
 
 const FramerImage = motion(Image);
 
-const MovingImg = ({ title, img, link }) => {
+const MovingImg = ({ title, img }) => {
     const x = useMotionValue(0);
     const y = useMotionValue(0);
     const imgRef = useRef(null);
@@ -47,12 +47,7 @@ const MovingImg = ({ title, img, link }) => {
     }
 
     return (
-        <Link
-            href={link}
-            target="_blank"
-            onMouseMove={handleMouse}
-            onMouseLeave={handleMouseLeave}
-        >
+<>
             <h2 className="captialize text-xl font-semibold hover:underline">
                 {title}
             </h2>
@@ -69,11 +64,11 @@ const MovingImg = ({ title, img, link }) => {
                 // alt={title}
                 className="z-10 w-96 h-auto hidden absolute rounded-lg md:!hidden"
             />
-        </Link>
+            </>
     );
 };
 
-const Article = ({ img, title, date, link }) => {
+const Article = ({ title, date}) => {
     return (
         <motion.li
             initial={{ y: 200 }}
@@ -83,7 +78,7 @@ const Article = ({ img, title, date, link }) => {
          bg-light text-dark first:mt-0 border border-solid border-dark border-r-4 border-b-4 dark:border-light dark:bg-dark  dark:text-light
          sm:flex-col"
         >
-            <MovingImg title={title} img={img} link={link} />
+            <MovingImg title={title}  />
             <span className="text-primary font-semibold pl-4 dark:text-primaryDark sm:self-start sm:pl-0 xs:text-sm">
                 {date}
             </span>
@@ -203,34 +198,24 @@ export default function More() {
                     </h2>
                     <ul className="mb-16">
                         <Article
-                            title="Achieved Topper status in the Cloud Computing course | NPTEL | Dec 2023"
+                            title="Achieved Topper status in the Cloud Computing course | NPTEL "
                             date="December 2023"
-                            link="https://medium.com/@g.nithish100/embarking-on-the-journey-of-algorithmic-problem-solving-demands-a-strategic-mindset-to-overcome-8de876185f4b"
-                            img={dsa}
                         />
                         <Article
-                            title="Achieved NPTEL STAR Recognition | NPTEL | Dec 2023"
+                            title="Achieved NPTEL STAR Recognition | NPTEL "
                             date="December 2023"
-                            link="https://medium.com/@g.nithish100/students-thinking-left-behind-6e0c833d2411"
-                            img={school}
                         />
                         <Article
-                            title="Secured the title of Best Performer in Googlathon 2.0 | Nov 2023"
+                            title="Secured the title of Best Performer in Googlathon 2.0 "
                             date="November 2023"
-                            link="https://medium.com/@g.nithish100/hackathon-heroics-10-essential-winning-moves-35439dcde026"
-                            img={hackathon}
                         />
                         <Article
-                            title="Awarded for the Best Project at the Intra-College Level Expo | Amirta Expo | Nov 2022"
+                            title="Awarded for the Best Project at the Intra-College Level Expo | Amirta Expo"
                             date="November 2022"
-                            link="https://medium.com/@g.nithish100/unraveling-the-layers-of-social-profiling-navigating-the-digital-landscape-a42d0c796f1f"
-                            img={socialmap}
                         />
                         <Article
                             title="2 Times Runner Up | Design Thinking Expo | 2022"
                             date="2022"
-                            link="https://medium.com/@g.nithish100/the-ipads-many-talents-25-ways-to-get-the-most-out-of-your-device-912a49cacb57"
-                            img={ipad}
                         />
                     </ul>
                     <h2 className="font-bold text-4xl w-full text-start my-16 mt-32">
@@ -238,47 +223,33 @@ export default function More() {
                     </h2>
                     <ul className="mb-16">
                         <Article
-                            title="The Joy of Computing using Python | NPTEL | 12 weeks | 2023"
+                            title="The Joy of Computing using Python | NPTEL | 12 weeks "
                             date="2023"
-                            link="https://medium.com/@g.nithish100/the-ipads-many-talents-25-ways-to-get-the-most-out-of-your-device-912a49cacb57"
-                            img={ipad}
                         />
                         <Article
-                            title="Programming in Java | NPTEL | 12 weeks | 2023
-"
+                            title="Programming in Java | NPTEL | 12 weeks"
                             date="2023"
-                            link="https://medium.com/@g.nithish100/the-ipads-many-talents-25-ways-to-get-the-most-out-of-your-device-912a49cacb57"
-                            img={ipad}
                         />
                         <Article
-                            title="Cloud Computing | NPTEL | 12 weeks | 2023"
+                            title="Cloud Computing | NPTEL | 12 weeks "
                             date="2023"
-                            link="https://medium.com/@g.nithish100/the-ipads-many-talents-25-ways-to-get-the-most-out-of-your-device-912a49cacb57"
-                            img={ipad}
                         />
                         <Article
-                            title="Google Project Management | Coursera | 6 months | 2024"
+                            title="Google Project Management | Coursera | 6 months "
                             date="2024"
-                            link="https://medium.com/@g.nithish100/the-ipads-many-talents-25-ways-to-get-the-most-out-of-your-device-912a49cacb57"
-                            img={ipad}
                         />
                         <Article
-                            title="IBM Data Science | Coursera | 5 months | 2023"
+                            title="IBM Data Science | Coursera | 5 months "
                             date="2023"
-                            link="https://medium.com/@g.nithish100/the-ipads-many-talents-25-ways-to-get-the-most-out-of-your-device-912a49cacb57"
-                            img={ipad}
                         />
                         <Article
-                            title="Introduction to Psychology | Yale University | 3 weeks | 2023"
+                            title="Introduction to Psychology | Yale University | 3 weeks "
                             date="2023"
-                            link="https://medium.com/@g.nithish100/the-ipads-many-talents-25-ways-to-get-the-most-out-of-your-device-912a49cacb57"
-                            img={ipad}
                         />
                         <Article
-                            title="Google Data Analytics | Coursera | 6 months | 2023"
+                            title="Google Data Analytics | Coursera | 6 months "
                             date="2023"
-                            link="https://medium.com/@g.nithish100/the-ipads-many-talents-25-ways-to-get-the-most-out-of-your-device-912a49cacb57"
-                            img={ipad}
+                            
                         />
                     </ul>
                     <h2 className="font-bold text-4xl w-full text-start my-16 mt-32">
@@ -288,19 +259,16 @@ export default function More() {
                         <Article
                             title="GYM TRAINER Using Artificial Intelligence | IJSART"
                             date="2024"
-                            link="https://medium.com/@g.nithish100/the-ipads-many-talents-25-ways-to-get-the-most-out-of-your-device-912a49cacb57"
                             img={ipad}
                         />
                         <Article
                             title="Design Virtual Kit Using Unity | IJSART "
                             date="2024"
-                            link="https://medium.com/@g.nithish100/the-ipads-many-talents-25-ways-to-get-the-most-out-of-your-device-912a49cacb57"
                             img={ipad}
                         />
                         <Article
                             title="Design Pattern  | Amubulance Navigator | SNYG"
                             date="2022"
-                            link="https://medium.com/@g.nithish100/the-ipads-many-talents-25-ways-to-get-the-most-out-of-your-device-912a49cacb57"
                             img={ipad}
                         />
                     </ul>
