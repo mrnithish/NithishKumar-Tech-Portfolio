@@ -17,7 +17,9 @@ import justice_league from "../../public/images/projects/Modern Minimalist Simpl
 import videoSummarizer from "../../public/images/projects/video summarizer.png"
 import spamMailDetection from "../../public/images/projects/spam mail.png"
 import TextToImage from "../../public/images/projects/Text to Image.png"
-
+import Relife from "../../public/images/projects/Relife.png"
+import ECPD from "../../public/images/projects/ECPD.png"
+import House from "../../public/images/projects/house.jpg"
 const FramerImage = motion(Image);
 
 const FeauteredProjects = ({ type, title, summary, img, link, github }) => {
@@ -147,6 +149,36 @@ const projects = () => {
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+          <div className="col-span-12">
+              <FeauteredProjects
+                title="ReLife"
+                img={Relife}
+                summary="The core idea of our project is to address the pervasive issue of social isolation and the neglect of mental health by developing a comprehensive website dedicated to mental health awareness and support. ."
+                link="https://github.com/mrnithish/Spam-Mail-Detection"
+                github="https://github.com/mrnithish/ReLife2"
+                type="Featured Project"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="E-Commerce Product Delivery Prediction"
+                img={ECPD}
+                summary=""
+                link="https://github.com/mrnithish/Data-Science-Projects/blob/master/E-Commerce%20Product%20Delivery%20Prediction/description.md"
+                github="https://github.com/mrnithish/Data-Science-Projects/tree/master/E-Commerce%20Product%20Delivery%20Prediction"
+                type="Project"
+              />
+              </div>
+              <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="House Price Prediction"
+                img={House}
+                summary=""
+                link="https://github.com/mrnithish/Data-Science-Projects/blob/master/Delhi%20House%20Price%20Prediction/description.md"
+                github="https://github.com/mrnithish/Data-Science-Projects/tree/master/Delhi%20House%20Price%20Prediction"
+                type="Project"
+              />
+              </div>
           <div className="col-span-12">
               <FeauteredProjects
                 title="Spam Mail Detection"

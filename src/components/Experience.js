@@ -181,36 +181,40 @@ const Experience = () => {
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+        <Details
+            position="Azure Cloud Intern"
+            company="Microsoft"
+            companyLink="https://www.linkedin.com/company/microsoft/"
+            time="March 2024 - May 2024"
+            address="Remote"
+            work="Developed solutions using Microsoft Azure and GitHub tools to address business challenges, improving operational efficiency by 30%. 
+            Expertise in Azure Cloud services, AI, and security protocols was gained through continuous learning and application. 
+            Innovative projects focused on cloud computing and AI implementation were successfully completed, enhancing security measures and system reliability."
+          />
+        <Details
+            position="Data Scientist Intern"
+            company="Oasis Infobyte"
+            companyLink="https://www.linkedin.com/company/oasis-infobyte/"
+            time="Feburary 2024 - March 2024"
+            address="Remote"
+            work="Developed and deployed machine learning models for projects including Iris Flower Classification and car price prediction.
+            Analyzed and interpreted unemployment data during the Covid-19 pandemic, revealing critical societal trends and enhancing data-driven decision-making.
+            Forecasted sales trends by analyzing advertising spend and market data, supporting strategic business decisions and enhancing marketing effectiveness."
+          />
           <Details
-            position="Data Scientist"
+            position="Data Scientist Intern"
             company="Freelancers League"
-            companyLink=""
-            time="March 2023 - current"
+            companyLink="https://www.linkedin.com/company/freelancers-league/"
+            time="March 2023 - September 2023"
             address="Remote"
             work="Scraping data from multiple websites increased the number of important discoveries by 35%.Data mining operations were continuously analysed and evaluated in order to discover areas for improvement and increase efficiency.Data extraction and loading operations were automated using Advanced Excel, saving 10+ hours of manual effort per week.Advanced statistical analysis and machine learning methods were used to find patterns and trends in the data. "
           />
           <Details
-            position="Scrum Master"
-            company="Zormite Studios"
-            companyLink="www.google.com"
-            time="February 2023-May 2023"
-            address="Remote"
-            work="Actively handled project timeframes, priorities, and resources using project management tools and procedures to guarantee project milestones were met on time.Promoted a collaborative and empowered team atmosphere, prioritising open communication, conflict resolution, and continuous improvement, resulting in an astounding 55% increase in work productivity.Two projects were completed on schedule and within budget, and both received favourable reviews."
-          />
-          <Details
-            position="Techno Geek"
-            company="SNS COLORS"
-            companyLink="www.google.com"
-            time="Sepetember 2022- October 2022"
-            address="Coimbatore,Tamilnadu"
-            work="Training over 150+ students across four technical verticals through a Design Thinking Technical Bootcamp.Achieved inclusivity and collaboration in the learning environment by adapting teaching methodologies to accommodate diverse learning styles and skill levels. Providing personalized guidance and support to students, responding to their queries and challenges as soon as possible to facilitate their skill development.Received commendations and high satisfaction levels from students for providing quality mentorship and training. "
-             />
-          <Details
-            position="Junior BackEnd Engineer"
+            position="Junior BackEnd Engineer Intern"
             company="V7-Lancers"
-            companyLink="www.google.com"
-            time="December 2021-June 2022"
-            address="Madurai,Tamilnadu"
+            companyLink="https://www.linkedin.com/company/v7-lancers/"
+            time="December 2021 - June 2022"
+            address="Remote"
             work="Developed a comprehensive e-commerce website for the sale and purchase of millets and whole grains. Created a sophisticated model that seamlessly integrated database operations and login authentication, ensuring secure access and efficient data management.Implemented server-side and business logic components under the supervision of senior developers. Participated in code reviews to learn from senior developers and improve coding skills."
           />
         </ul>
