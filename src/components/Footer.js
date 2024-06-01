@@ -25,6 +25,7 @@ const Footer = () => {
           Hello
         </Link>
       </Layout>
+
     </footer>
   );
 };
