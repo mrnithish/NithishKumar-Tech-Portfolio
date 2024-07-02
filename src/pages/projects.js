@@ -154,7 +154,7 @@ const projects = () => {
                 title="ReLife"
                 img={Relife}
                 summary="The core idea of our project is to address the pervasive issue of social isolation and the neglect of mental health by developing a comprehensive website dedicated to mental health awareness and support. ."
-                link="https://github.com/mrnithish/Spam-Mail-Detection"
+                link="https://github.com/mrnithish/ReLife2"
                 github="https://github.com/mrnithish/ReLife2"
                 type="Featured Project"
               />
@@ -214,7 +214,7 @@ const projects = () => {
                 title="AI TRAINER"
                 img={aitrainer}
                 summary="A speech module was used to implement voice-based instructions, manage the system, and accurately analyse physical exercises in real time.The planned exercise module includes a variety of exercises, such as pushups and squats, to offer a variety of training possibilities."
-                link="/"
+                link="https://github.com/mrnithish/Voice-Ai-Trainer"
                 github="https://github.com/mrnithish/Voice-Ai-Trainer"
                 type="Featured Project"
               />
@@ -224,7 +224,7 @@ const projects = () => {
                 title="Flipkart - Webscrapping"
                 img={flipkart}
                 summary="A web scrapping module to scrape the data in the flipkart website."
-                link="/"
+                link="https://github.com/mrnithish/Webscrapping-Flipkart-anyqueries"
                 github="https://github.com/mrnithish/Webscrapping-Flipkart-anyqueries"
                 type="Project"
               />
@@ -234,7 +234,7 @@ const projects = () => {
                 title="Text Summarizer"
                 img={text_summarizer}
                 summary="A text summarizer using llm models hugging-face."
-                link="/"
+                link="https://github.com/mrnithish/Text_Summarizer_transformers"
                 github="https://github.com/mrnithish/Text_Summarizer_transformers"
                 type="Project"
               />
@@ -254,7 +254,7 @@ const projects = () => {
                 title="Diwali-Sales-Data-Analysis"
                 img={sales}
                 summary="Statistics study of the Diwali sales statistics"
-                link="/"
+                link="https://github.com/mrnithish/Data-Analysis-Diwali-Sales"
                 github="https://github.com/mrnithish/Data-Analysis-Diwali-Sales"
                 type="Project"
               />
@@ -264,7 +264,7 @@ const projects = () => {
                 title="Music Player"
                 img={music}
                 summary="A mp3 music player."
-                link="/"
+                link="https://github.com/mrnithish/music-player-tkinter"
                 github="https://github.com/mrnithish/music-player-tkinter"
                 type="Project"
               />
