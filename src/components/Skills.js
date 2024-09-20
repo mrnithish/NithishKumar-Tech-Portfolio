@@ -34,7 +34,7 @@ const Skills = () => {
               <h1 className="text-[2rem] font-semibold md:text-[2rem]">Frontend</h1>
             </div>
 
-            <Skillbg></Skillbg>
+            
             <Htmlcard></Htmlcard>
             <Ccard></Ccard>
             <Sqlcard></Sqlcard>
@@ -47,6 +47,7 @@ const Skills = () => {
             <div className="w-full text-center">
               <h1 className="text-[2rem] font-semibold md:text-[2rem]">Backend</h1>
             </div>
+            <Skillbg></Skillbg>
             <Mysqlcard></Mysqlcard>
             <Phpcard></Phpcard>
             <Fbcard></Fbcard>
