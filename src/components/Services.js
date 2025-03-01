@@ -14,7 +14,8 @@ const Services = () => {
                     <h3 className="text-[2.5rem] mt-0  mx-0 font-semibold md:text-[2rem]">
                         Services
                     </h3>
-                    <div className="flex flex-wrap justify-between w-full md:mt-0,mx-auto sm: flex,mx-auto">
+                    <div className="flex flex-wrap justify-center items-center w-full gap-5 md:mt-0 mx-auto">
+
                         <div className=" group min-w-80 max-w-80 h-80 rounded-lg mt-7 bg-gray-500 md:left-2 p-5 transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 hover:bg-primary  hover:dark:bg-primaryDark hover:dark:text-black hover:text-white duration-300 ...">
                             <Pythonwhitesvg className="w-12 dark:fill-white dark:group-hover:fill-black group-hover:fill-white " />
                             <h1 className="text-[1.5rem] mt-4 mb-4 mx-0 font-semibold md:text-[1.5rem]">Python Developer</h1>
@@ -72,23 +73,4 @@ const Services = () => {
 export default Services;
 
 
-// ... (existing code)
 
-// const Services = () => {
-//     return (
-//         <Layout className="h-full w-fit">
-//             <div>
-//                 <div>
-//                     <h3 className="text-[2.5rem] mt-0 mx-0 font-semibold md:text-[2rem]">
-//                         Services
-//                     </h3>
-//                     <div className="flex flex-wrap justify-between w-full md:mt-0 mx-auto md:mx-0">
-//                         {/* ... (existing code) */}
-//                     </div>
-//                 </div>
-//             </div>
-//         </Layout>
-//     );
-// };
-
-// export default Services;

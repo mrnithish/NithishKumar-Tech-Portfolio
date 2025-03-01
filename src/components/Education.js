@@ -73,11 +73,11 @@ const Education = () => {
             info="Percentage : 91.6 %"
           />
         </ul>
-        <div className="absolute -right-1/3 bottom-8 inline-block w-50 -top-1/4 md:hidden">
+        <div className="absolute -right-1/3 bottom-8 inline-block w-100 -top-1/4 md:hidden h-50">
           <Image
             src={educationpic}
             alt="Nithish Kumar"
-            className="w-full h-auto "
+            className="w-100 h-auto "
           />
         </div>
       </div>
