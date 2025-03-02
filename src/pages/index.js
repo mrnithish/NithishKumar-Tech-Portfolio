@@ -16,7 +16,7 @@ export default function Home() {
       <Head>
         <title>Nithish Kumar G</title>
         <meta name="description" content="Portfolio website of Nithish Kumar G" />
-        <meta name="keywords" content="nithish,nithishkumar,nithishkumarg,portfolio,mrnithish,sns,student,tech people,,data scientist,ai/ml engineer,nithishkumarg.tech," />
+        <meta name="keywords" content="nithishkumarg.me,nithish,nithishkumar,nithishkumarg,portfolio,mrnithish,sns,student,tech people,,data scientist,ai/ml engineer,nithishkumarg.tech," />
         <meta name="author" content="Nithish Kumar G" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
